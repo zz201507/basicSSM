@@ -20,6 +20,7 @@
     </servlet-mapping>
 
     <!--注册spring监听器-->
+    <!--这个标签用来设置spring配置文件的位置，配置文件默认在/WEB-INF文件下-->
     <context-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:conf/applicationContext.xml</param-value>

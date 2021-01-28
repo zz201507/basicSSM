@@ -11,13 +11,16 @@
 </head>
 <body>
 <div align="center">
-    <p>SSM整合</p>
+    <p>SSM TEST</p>
     <table>
         <tr>
-            <td><a href="addStudent.jsp">学生注册</a></td>
+            <td><a href="addStudent.jsp">注册</a></td>
         </tr>
         <tr>
-            <td>浏览学生</td>
+            <td> <a href="login.jsp">登录</a> </td>
+        </tr>
+        <tr>
+            <td><a href="selectStudents.do" >查看所有的用户信息</a></td>
         </tr>
     </table>
     <img src="images/星球.jpg" />

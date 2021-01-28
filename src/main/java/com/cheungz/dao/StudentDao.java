@@ -4,8 +4,12 @@ import com.cheungz.domain.Student;
 
 import java.util.List;
 
-
 public interface StudentDao {
+
     int insertStudent(Student student);
-    List<Student> selectStudent();
+
+    Student selectStudent(Student student);
+
+    List<Student> allFindStudent();
+
 }

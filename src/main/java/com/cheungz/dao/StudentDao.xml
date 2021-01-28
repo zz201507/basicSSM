@@ -4,10 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cheungz.dao.StudentDao">
     <select id="selectStudent" resultType="com.cheungz.domain.Student">
-        select id,name,age from studnet
+        select username,password from student where username=#{username} and password=#{password}
     </select>
 
     <insert id="insertStudent" >
-        insert into student (name,age) values (#{name},#{age})
+        insert into student (username,password) values (#{username},#{password})
     </insert>
+
+    <select id="allFindStudent" resultType="com.cheungz.domain.Student">
+        select username,password from student
+    </select>
+
 </mapper>

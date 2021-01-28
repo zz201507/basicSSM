@@ -4,6 +4,6 @@
     <title>Title</title>
 </head>
 <body>
-result.jsp结果页面,注册结果:${tips}
+${msg}
 </body>
 </html>
